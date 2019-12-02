@@ -84,3 +84,6 @@ p {
     background: #5ea12b;
     transition: background 0.5s ease-in-out;
 }
+.navbar {
+    padding: 0;
+}
