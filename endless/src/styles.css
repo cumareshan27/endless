@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+.parallax {
+
+    background-image: url("../src/assets/images/photo-couch.jpg");
+
+
+
+    height: 900px;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    position: absolute;
+    z-index: 1000;
+    top: 500px;
+
+
+}
+
+
+
+body {
+    background-color: #f2f1ef;
+}
+
+h1 {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+
+}
+
+h2 {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Lato',
+        sans-serif;
+
+}
+
+.logo {
+    padding-left: 200px;
+}
+
+.numbers {
+    font-size: 50pt;
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 400;
+}
+
+.text-box {
+    height: 400px;
+    padding: 50px;
+
+}
+
+.bg-color-green {
+    background-color: #50e3c2;
+}
+
+.bg-color-dark-gray {
+    background-color: #222222;
+}
+
+.text-color-green {
+    color: #50e3c2;
+}
+
+#button:hover {
+    background: rgb(36, 134, 128);
+}
+
+#button-submit {
+    background: #5ea12b;
+    transition: background 0.5s ease-in-out;
+}

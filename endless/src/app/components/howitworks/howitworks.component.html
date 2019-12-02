@@ -1,0 +1,46 @@
+
+
+<div class="container">
+    <div class="text-box">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>How It works</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 text-center" *ngFor="let data of result.data">
+                <div class="numbers">0{{data.stepNumber}}</div>
+                <img src="../assets/images/stripe 1.png" alt="Green Strip">
+                <div class="text-uppercase pt-3">{{data.stepNumber != 3 ? data.versionContent[0].title : data.versionContent[1].title}}</div>
+                <p class="pt-3">{{data.stepNumber != 3 ? data.versionContent[0].body : data.versionContent[1].body}}</p>
+            </div>
+            <!-- 
+            <div class="col-md-3 text-center">
+                <div class="numbers">02</div>
+                <img src="../assets/images/stripe 1.png" alt="Green Strip">
+                <div class="text-uppercase pt-3">Request A delivery</div>
+                <p class="pt-3">Once you’re ready for your first delivery, all it takes is a click to get your
+                    shipment on the
+                    way.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="numbers">03</div>
+                <img src="../assets/images/stripe 1.png" alt="Green Strip">
+                <div class="text-uppercase pt-3">Keep What You Want</div>
+                <p class="pt-3">Tell us “no thanks” by returning any unwanted products in the enclosed packaging.
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="numbers">04</div>
+                <img src="../assets/images/stripe 1.png" alt="Green Strip">
+                <div class="text-uppercase pt-3">Request Another Delivery</div>
+                <p class="pt-3">Get your next gaming fix by updating your profile then initiating your next
+                    shipment.</p>
+            </div> -->
+
+        </div>
+
+
+
+    </div>
+
